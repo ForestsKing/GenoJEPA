@@ -1,0 +1,10 @@
+# path
+data_dir: ./dataset/GenoJEPA-Evaluation/
+model_dir: ./output/GenoJEPA-Tiny
+
+# train
+eval_batch_size: 1024
+
+# other
+random_seed: 42
+online_swanlab: 1

@@ -1,0 +1,49 @@
+# path
+train_data_dir: ./dataset/GenoJEPA-Pretraining/DNA_4K_Tokenized/
+valid_data_dir: ./dataset/GenoJEPA-Evaluation/
+tokenizer_dir: ./output/tokenizer/
+model_dir: ./output/GenoJEPA-Tiny
+
+# aug
+global_num: 2
+global_scale: [ 0.65, 0.8 ]
+local_num: 6
+local_scale: [ 0.35, 0.4 ]
+
+# model
+patch_size: 16
+embed_size: 16
+head_size: 16
+
+hidden_size: 384
+intermediate_size: 768
+layer_num: 4
+head_num: 12
+
+slice_num: 256
+point_num: 17
+max_t: 3.0
+alpha: 0.05
+
+# train
+train_step: 100_000
+warmup_step: 5_000
+
+train_batch_size: 256
+train_accumulation_step: 1
+eval_batch_size: 4096
+eval_accumulation_step: 1
+
+learning_rate: [ 0.0005, 0.00005 ]
+weight_decay: [ 0.005, 0.05 ]
+adam_epsilon: 0.00000001
+max_grad_norm: 1.0
+adam_beta1: 0.9
+adam_beta2: 0.999
+
+# other
+buffer_size: 5_000_000
+valid_idx: 54
+
+random_seed: 42
+online_swanlab: 1

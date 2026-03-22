@@ -1,0 +1,37 @@
+{
+  "alpha": 0.05,
+  "architectures": [
+    "GenoJEPAForPreTraining"
+  ],
+  "auto_map": {
+    "AutoConfig": "model.GenoJEPAConfig",
+    "AutoModel": "model.GenoJEPAForSequenceEmbedding",
+    "AutoModelForSequenceClassification": "model.GenoJEPAForSequenceClassification"
+  },
+  "dtype": "float32",
+  "embed_size": 16,
+  "global_num": 2,
+  "global_scale": [
+    0.65,
+    0.8
+  ],
+  "head_num": 12,
+  "head_size": 16,
+  "hidden_size": 384,
+  "intermediate_size": 768,
+  "layer_num": 4,
+  "local_num": 6,
+  "local_scale": [
+    0.35,
+    0.4
+  ],
+  "max_t": 3.0,
+  "model_type": "GenoJEPA",
+  "pad_token_id": 4,
+  "pad_value": 4,
+  "patch_size": 16,
+  "point_num": 17,
+  "slice_num": 256,
+  "transformers_version": "4.57.6",
+  "vocab_num": 5
+}

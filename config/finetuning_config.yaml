@@ -1,0 +1,22 @@
+# path
+data_dir: ./dataset/GenoJEPA-Evaluation/
+model_dir: ./output/GenoJEPA-Tiny
+
+# train
+train_epoch: 100
+warmup_ratio: 0.1
+stop_patience: 10
+
+train_accumulation_step: 1
+eval_batch_size: 1024
+eval_accumulation_step: 1
+
+weight_decay: [ 0.001, 0.01 ]
+adam_epsilon: 0.00000001
+max_grad_norm: 1.0
+adam_beta1: 0.9
+adam_beta2: 0.999
+
+# other
+random_seed: 42
+online_swanlab: 1
