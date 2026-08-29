@@ -220,10 +220,10 @@ If you find GenoJEPA useful in your research, please cite our paper:
 
 ```bibtex
 @article {Wang2026.04.02.716255,
-    author = {Wang, Chengsen and Qi, Qi and Sun, Haifeng and Zhuang, Zirui and He, Bo and Liu, Siying and Liao, Jianxin and Wang, Jingyu},
-    title = {From nucleotides to semantics: genomic representation learning via joint-embedding predictive architecture},
+    author  = {Wang, Chengsen and Qi, Qi and Sun, Haifeng and Zhuang, Zirui and He, Bo and Liu, Siying and Liao, Jianxin and Wang, Jingyu},
+    title   = {From nucleotides to semantics: genomic representation learning via joint-embedding predictive architecture},
     journal = {bioRxiv},
-    year = {2026},
+    year    = {2026},
 }
 ```
 
